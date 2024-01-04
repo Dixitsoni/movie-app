@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import DefaultLayout from './layout';
 import MovieDetail from './layout/movieSection/movieDetail/MovieDetail';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
