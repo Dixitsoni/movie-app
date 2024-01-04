@@ -5,10 +5,12 @@ import MovieDetail from './layout/movieSection/movieDetail/MovieDetail';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/movie-app' element={<DefaultLayout />} />
-      <Route path='/movie-detail/:id' element={<MovieDetail />} />
-    </Routes>
+    <BrowserRouter basename='/movie-app'>
+      <Routes >
+        <Route exact path='/movie-app' element={<DefaultLayout />} />
+        <Route path='/movie-detail/:id' element={<MovieDetail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
