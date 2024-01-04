@@ -6,8 +6,8 @@ import MovieDetail from './layout/movieSection/movieDetail/MovieDetail';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<DefaultLayout />} />
-      <Route path='movie-detail/:id' element={<MovieDetail />} />
+      <Route path='/movie-app' element={<DefaultLayout />} />
+      <Route path='/movie-detail/:id' element={<MovieDetail />} />
     </Routes>
   );
 }
