@@ -7,12 +7,12 @@ function App() {
   return (
     <>
       <DefaultLayout />
-      <HashRouter>
-        <Routes>
-          {/* <Route exact path='/movie-app/' element={<DefaultLayout />} /> */}
-          <Route path='/movie-detail/:id' element={<MovieDetail />} />
-        </Routes>
-      </HashRouter>
+      {/* <HashRouter> */}
+      {/* <Routes> */}
+      {/* <Route exact path='/movie-app/' element={<DefaultLayout />} /> */}
+      {/* <Route path='/movie-detail/:id' element={<MovieDetail />} /> */}
+      {/* </Routes> */}
+      {/* </HashRouter> */}
     </>
 
   );
