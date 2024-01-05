@@ -5,12 +5,16 @@ import MovieDetail from './layout/movieSection/movieDetail/MovieDetail';
 
 function App() {
   return (
-    <HashRouter basename='/movie-app/'>
-      <Routes>
-        <Route exact path='/movie-app/' element={<DefaultLayout />} />
-        <Route path='/movie-detail/:id' element={<MovieDetail />} />
-      </Routes>
-    </HashRouter>
+    <>
+      <DefaultLayout />
+      <HashRouter>
+        <Routes>
+          {/* <Route exact path='/movie-app/' element={<DefaultLayout />} /> */}
+          <Route path='/movie-detail/:id' element={<MovieDetail />} />
+        </Routes>
+      </HashRouter>
+    </>
+
   );
 }
 
