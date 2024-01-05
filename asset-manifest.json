@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/movie-app/static/css/main.02826513.css",
-    "main.js": "/movie-app/static/js/main.50f108ce.js",
+    "main.js": "/movie-app/static/js/main.f96737f0.js",
     "static/js/787.b55ca069.chunk.js": "/movie-app/static/js/787.b55ca069.chunk.js",
     "static/media/vecteezy_movie-clapper-on-wooden-background_4340262.jpg": "/movie-app/static/media/vecteezy_movie-clapper-on-wooden-background_4340262.cdca68b5dfe08362f815.jpg",
     "static/media/man-avatar-icon-flat-illustration-man-avatar-vector-icon-any-web-design_98396-3377.avif": "/movie-app/static/media/man-avatar-icon-flat-illustration-man-avatar-vector-icon-any-web-design_98396-3377.84378dad6a730b8df003.avif",
     "index.html": "/movie-app/index.html",
     "main.02826513.css.map": "/movie-app/static/css/main.02826513.css.map",
-    "main.50f108ce.js.map": "/movie-app/static/js/main.50f108ce.js.map",
+    "main.f96737f0.js.map": "/movie-app/static/js/main.f96737f0.js.map",
     "787.b55ca069.chunk.js.map": "/movie-app/static/js/787.b55ca069.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02826513.css",
-    "static/js/main.50f108ce.js"
+    "static/js/main.f96737f0.js"
   ]
 }
